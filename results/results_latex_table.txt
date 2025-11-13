@@ -1,0 +1,204 @@
+% LaTeX Tables for Soil Property Prediction Results
+% Generated automatically from combined results
+% Summary table followed by detailed tables for each property
+
+% Best Methods Summary Table
+% Shows the top-performing method for each of the 8 main soil constituents
+
+\begin{table}[htbp]
+\centering
+\caption{Best performing models for each soil constituent}
+\label{tab:best_methods_summary}
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Soil Constituent} & \textbf{Best Model} & \textbf{R\textsuperscript{2}} \\
+\midrule
+Clay Content & Enhanced NN PCA 40 & 0.839 \\
+Ph & Extra Trees No Scaling (deriv) & 0.765 \\
+Organic Carbon & Xgboost No Scaling (deriv) & 0.697 \\
+Magnesium & Enhanced NN PCA 20 & 0.656 \\
+Sodium & Enhanced NN PCA 120 & 0.654 \\
+Calcium & Extra Trees No Scaling (deriv) & 0.599 \\
+Organic Nitrogen & Nusvr PCA 70 & 0.445 \\
+Potassium & Extra Trees No Scaling (deriv) & 0.343 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Detailed tables for each soil property (top 10 methods)
+
+\begin{table}[htbp]
+\centering
+\caption{Top models for predicting Clay Content}
+\label{tab:claycontent}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Model} & \textbf{R\textsuperscript{2}} \\
+\midrule
+Enhanced NN PCA 40 & 0.839 \\
+Enhanced NN PCA 30 & 0.833 \\
+Enhanced NN PCA 50 & 0.826 \\
+MLP Regressor No Scaling (deriv) & 0.823 \\
+MLP Regressor Standard Scaling (deriv) & 0.823 \\
+Enhanced NN PCA 20 & 0.819 \\
+Enhanced NN PCA 100 & 0.817 \\
+Enhanced NN PCA 60 & 0.812 \\
+Enhanced NN PCA 80 & 0.811 \\
+MLP Regressor PCA 40 & 0.809 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Top models for predicting Ph}
+\label{tab:ph}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Model} & \textbf{R\textsuperscript{2}} \\
+\midrule
+Extra Trees No Scaling (deriv) & 0.765 \\
+Extra Trees Standard Scaling (deriv) & 0.765 \\
+Lightgbm No Scaling (deriv) & 0.736 \\
+Lightgbm Standard Scaling (deriv) & 0.736 \\
+Hist Gradient Boosting Standard Scaling (deriv) & 0.726 \\
+Hist Gradient Boosting No Scaling (deriv) & 0.726 \\
+SVR Standard Scaling (deriv) & 0.724 \\
+SVR No Scaling (deriv) & 0.724 \\
+Extra Trees PCA 15 & 0.724 \\
+Enhanced NN PCA 30 & 0.720 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Top models for predicting Organic Carbon}
+\label{tab:organiccarbon}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Model} & \textbf{R\textsuperscript{2}} \\
+\midrule
+Xgboost No Scaling (deriv) & 0.697 \\
+Xgboost Standard Scaling (deriv) & 0.697 \\
+Gradient Boosting No Scaling (deriv) & 0.667 \\
+Gradient Boosting Standard Scaling (deriv) & 0.667 \\
+Xgboost PCA 60 & 0.666 \\
+Extra Trees No Scaling (deriv) & 0.665 \\
+Extra Trees Standard Scaling (deriv) & 0.665 \\
+Xgboost PCA 70 & 0.648 \\
+Lightgbm No Scaling (deriv) & 0.647 \\
+Lightgbm Standard Scaling (deriv) & 0.647 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Top models for predicting Magnesium}
+\label{tab:magnesium}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Model} & \textbf{R\textsuperscript{2}} \\
+\midrule
+Enhanced NN PCA 20 & 0.656 \\
+Enhanced NN PCA 70 & 0.646 \\
+Enhanced NN PCA 60 & 0.636 \\
+Enhanced NN PCA 40 & 0.627 \\
+Enhanced NN PCA 30 & 0.626 \\
+Enhanced NN PCA 90 & 0.626 \\
+Enhanced NN PCA 50 & 0.625 \\
+Enhanced NN PCA 100 & 0.618 \\
+Enhanced NN PCA 80 (deriv) & 0.616 \\
+Enhanced NN PCA 70 (deriv) & 0.615 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Top models for predicting Sodium}
+\label{tab:sodium}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Model} & \textbf{R\textsuperscript{2}} \\
+\midrule
+Enhanced NN PCA 120 & 0.654 \\
+Enhanced NN PCA 80 & 0.650 \\
+Enhanced NN PCA 90 & 0.645 \\
+Enhanced NN PCA 120 (deriv) & 0.636 \\
+Enhanced NN PCA 160 (deriv) & 0.636 \\
+Enhanced NN PCA 100 (deriv) & 0.594 \\
+Enhanced NN PCA 140 & 0.594 \\
+Enhanced NN PCA 160 & 0.590 \\
+Enhanced NN PCA 15 & 0.581 \\
+Enhanced NN PCA 40 & 0.576 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Top models for predicting Calcium}
+\label{tab:calcium}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Model} & \textbf{R\textsuperscript{2}} \\
+\midrule
+Extra Trees No Scaling (deriv) & 0.599 \\
+Extra Trees Standard Scaling (deriv) & 0.599 \\
+Enhanced NN PCA 30 & 0.597 \\
+Lightgbm No Scaling (deriv) & 0.584 \\
+Lightgbm Standard Scaling (deriv) & 0.584 \\
+Enhanced NN PCA 20 & 0.584 \\
+Enhanced NN PCA 70 & 0.584 \\
+MLP Regressor PCA 60 & 0.582 \\
+Enhanced NN PCA 50 & 0.581 \\
+Extra Trees PCA 20 (deriv) & 0.577 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Top models for predicting Organic Nitrogen}
+\label{tab:organicnitrogen}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Model} & \textbf{R\textsuperscript{2}} \\
+\midrule
+Nusvr PCA 70 & 0.445 \\
+Nusvr PCA 60 & 0.441 \\
+Extra Trees PCA 15 & 0.440 \\
+Nusvr PCA 80 & 0.432 \\
+Nusvr PCA 50 & 0.432 \\
+Nusvr PCA 80 (deriv) & 0.429 \\
+Nusvr PCA 70 (deriv) & 0.426 \\
+Nusvr PCA 50 (deriv) & 0.416 \\
+Nusvr PCA 90 (deriv) & 0.415 \\
+Nusvr PCA 90 & 0.414 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Top models for predicting Potassium}
+\label{tab:potassium}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Model} & \textbf{R\textsuperscript{2}} \\
+\midrule
+Extra Trees No Scaling (deriv) & 0.343 \\
+Extra Trees Standard Scaling (deriv) & 0.343 \\
+Lightgbm No Scaling (deriv) & 0.289 \\
+Lightgbm Standard Scaling (deriv) & 0.289 \\
+Extra Trees PCA 30 & 0.287 \\
+Random Forest Standard Scaling (deriv) & 0.280 \\
+Random Forest No Scaling (deriv) & 0.279 \\
+K-neighbors No Scaling (deriv) & 0.276 \\
+K-neighbors Standard Scaling (deriv) & 0.276 \\
+Hist Gradient Boosting No Scaling (deriv) & 0.272 \\
+\bottomrule
+\end{tabular}
+\end{table}

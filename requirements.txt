@@ -1,0 +1,30 @@
+# Core Data Science & Machine Learning
+numpy>=2.1.0
+pandas>=2.3.0
+scikit-learn>=1.7.0
+scipy>=1.15.0
+scikit-optimize>=0.10.2
+lazypredict>=0.2.16
+
+# Deep Learning
+tensorflow>=2.19.0
+
+# Data Visualization
+matplotlib>=3.10.0
+seaborn>=0.13.0
+tabulate>=0.9.0
+
+# Jupyter Notebook Support
+jupyter>=1.1.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+
+# Database Access (for ICRAF-ISRIC database)
+pyodbc>=5.2.0
+pandas_access>=0.0.1
+
+# Additional Scientific Computing
+h5py>=3.14.0
+
+# Optional: For better performance and compatibility
+joblib>=1.5.0 
