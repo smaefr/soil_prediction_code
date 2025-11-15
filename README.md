@@ -178,7 +178,7 @@ If you use this code in your research, please cite:
 
 This project uses the **ICRAF-ISRIC Soil VNIR Spectral Library**:
 - Viscarra Rossel, R.A., et al. (2016). A global spectral library to characterize the world's soil. Earth-Science Reviews, 155, 198-230.
-- Available at: [ICRAF-ISRIC Soil VNIR Spectral Library](https://www.isric.org/projects/global-spectral-library)
+- Available at: [ICRAF-ISRIC Soil VNIR Spectral Library](https://www.cifor-icraf.org/knowledge/dataset/MFHA9C/)
 
 ## License
 
